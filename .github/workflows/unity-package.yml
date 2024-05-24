@@ -8,10 +8,13 @@ jobs:
         - uses: actions/checkout@v2
         - run: |
             echo "Assets/ARKit Create.cs.meta" > metalist
-        - run:
-            mkdir -p build
-            echo ${{github.ref_name}}
+        - run: mkdir -p build
 
-        #- uses: pCYSl5EDgo/create-unitypackage@master
-        #  with:
-        #    package-path: 'build/ARKit-Create-'
+        - uses: pCYSl5EDgo/create-unitypackage@master
+          with:
+            package-path: 'build/ARKit-Create-${{github.ref_name}}.unitypackage'
+            include-files: metalist
+        - uses: actions/upload-artifact@master
+          with:
+            path: build/ARKit-Create-${{github.ref_name}}.unitypackage
+            name: ARKit-Create-${{github.ref_name}}
