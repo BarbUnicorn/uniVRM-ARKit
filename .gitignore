@@ -70,3 +70,39 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+/Assets/Avatars/Barb 3.0.0
+/Assets/Avatars/Barb 3.0.0.meta
+/Assets/Scenes
+/Assets/UniGLTF
+/Assets/VRM
+/Assets/VRMShaders
+/Assets/VSF SDK
+/Assets/Avatars.meta
+/Assets/Scenes.meta
+/Assets/UniGLTF.meta
+/Assets/VRM.meta
+/Assets/VRMShaders.meta
+/Assets/VSF SDK.meta
+/Packages
+/Packages/manifest.json
+/Packages/packages-lock.json
+/ProjectSettings
+/ProjectSettings/AudioManager.asset
+/ProjectSettings/ClusterInputManager.asset
+/ProjectSettings/DynamicsManager.asset
+/ProjectSettings/EditorBuildSettings.asset
+/ProjectSettings/EditorSettings.asset
+/ProjectSettings/GraphicsSettings.asset
+/ProjectSettings/InputManager.asset
+/ProjectSettings/NavMeshAreas.asset
+/ProjectSettings/PackageManagerSettings.asset
+/ProjectSettings/Physics2DSettings.asset
+/ProjectSettings/PresetManager.asset
+/ProjectSettings/ProjectSettings.asset
+/ProjectSettings/ProjectVersion.txt
+/ProjectSettings/QualitySettings.asset
+/ProjectSettings/TagManager.asset
+/ProjectSettings/TimeManager.asset
+/ProjectSettings/UnityConnectSettings.asset
+/ProjectSettings/VFXManager.asset
+/ProjectSettings/XRSettings.asset
