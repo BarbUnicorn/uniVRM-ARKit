@@ -1,0 +1,17 @@
+name: Create unity package
+
+on: release
+jobs:
+    create-package:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - run: |
+            echo "Assets/ARKit Create.cs.meta" > metalist
+        - run:
+            mkdir -p build
+            echo ${{github.ref_name}}
+
+        #- uses: pCYSl5EDgo/create-unitypackage@master
+        #  with:
+        #    package-path: 'build/ARKit-Create-'
