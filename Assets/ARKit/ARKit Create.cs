@@ -10,6 +10,7 @@ namespace VRMARkit
 {
     public class ARKitCreate : MonoBehaviour
     {
+#if UNITY_EDITOR
         static readonly string[] blendShapes = {
             "browDownLeft",
             "browDownRight",
@@ -144,5 +145,6 @@ namespace VRMARkit
                 }
             }
         }
+#endif
     }
 }
