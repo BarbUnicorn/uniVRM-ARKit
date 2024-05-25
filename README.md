@@ -5,7 +5,7 @@
 - [Requirements](README.md#Requirements)
 - [Installation](README.md#Installation)
 - [Usage](README.md#Usage)
-- [BlendShapes Generated](README.md#BlendShapes Generated)
+- [BlendShapes Generated](README.md#BlendShapes-Generated)
 - [Troubleshooting](README.md#Troubleshooting)
 
 ## Introduction
