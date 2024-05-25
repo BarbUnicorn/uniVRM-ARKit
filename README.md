@@ -1,12 +1,12 @@
 # uniVRM ARKit
 
 ## Quick-Links
-- [Introduction]
-- [Requirements]
-- [Installation]
-- [Usage]
-- [BlendShapes Generated]
-- [Troubleshooting]
+- [Introduction](README.md#Introduction)
+- [Requirements](README.md#Requirements)
+- [Installation](README.md#Installation)
+- [Usage](README.md#Usage)
+- [BlendShapes Generated](README.md#BlendShapes Generated)
+- [Troubleshooting](README.md#Troubleshooting)
 
 ## Introduction
 
