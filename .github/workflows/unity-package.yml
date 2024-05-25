@@ -13,11 +13,6 @@ jobs:
             echo "Assets/ARKit Create.cs.meta" > metalist
         - run: mkdir -p build
         - run: awk -v tag=v1.0.0 'BEGIN { grab="false" } /^v[0-9.]+/{ grab="false"; } $0 ~ tag {grab="true"} { if (grab == "true") print $0; }' CHANGELOG.txt > release.txt
-
-        - uses: pCYSl5EDgo/create-unitypackage@master
-          with:
-            package-path: 'build/ARKit-Create-${{github.ref_name}}.unitypackage'
-            include-files: metalist
         - uses: softprops/action-gh-release@v2
           with:
             body_path: release.txt
