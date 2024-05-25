@@ -1,6 +1,9 @@
 name: Create unity package
 
-on: release
+on:
+    push:
+        tags: 
+         - '*'
 jobs:
     create-package:
         runs-on: ubuntu-latest

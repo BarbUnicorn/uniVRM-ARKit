@@ -1,0 +1,71 @@
+v1.0.1 (2024-05-25)
+
+Release Highlights
+
+Move Script to its own namespace and symbol space to allow VSeeFace SDK export
+avatars without any issue.
+
+v1.0.0 (2024-05-24)
+
+Release Highlights
+
+Creation of the script supporting the following Blend Shapes for AR:
+
+-    browDownLeft
+-    browDownRight
+-    browInnerUpLeft
+-    browInnerUpRight
+-    browOuterUpLeft
+-    browOuterUpRight
+-    cheekPuff
+-    eyeBlinkLeft
+-    eyeBlinkRight
+-    eyeLookDownLeft
+-    eyeLookDownRight
+-    eyeLookInLeft
+-    eyeLookInRight
+-    eyeLookOutLeft
+-    eyeLookOutRight
+-    eyeLookUpLeft
+-    eyeLookUpRight
+-    eyeSquintLeft
+-    eyeSquintRight
+-    eyeWideLeft
+-    eyeWideRight
+-    jawForward
+-    jawLeft
+-    jawOpen
+-    jawRight
+-    mouthClose
+-    mouthDimpleLeft
+-    mouthDimpleRight
+-    mouthFrownLeft
+-    mouthFrownRight
+-    mouthFunnel
+-    mouthLeft
+-    mouthLowerDownLeft
+-    mouthLowerDownRight
+-    mouthPressLeft
+-    mouthPressRight
+-    mouthPucker
+-    mouthRight
+-    mouthRollLower
+-    mouthRollUpper
+-    mouthShrugLower
+-    mouthShrugUpper
+-    mouthSmileLeft
+-    mouthSmileRight
+-    mouthStretchLeft
+-    mouthStretchRight
+-    mouthUpperUpLeft
+-    mouthUpperUpRight
+-    noseSneerLeft
+-    noseSneerRight
+-    tongueOut
+
+Added constrains for the eye movement.
+
+-    eyeLookDownLeft <-> eyeLookDownRight
+-    eyeLookUpLeft <-> eyeLookUpRight
+-    eyeLookInLeft <-> eyeLookOutRight
+-    eyeLookInRight <-> eyeLookOutLeft
